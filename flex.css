@@ -1,0 +1,16 @@
+.glxavor{
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 250px;
+    background: #1023b3;
+    background: linear-gradient(90deg, rgba(16, 35, 179, 1) 29%, rgba(0, 221, 255, 1) 77%);
+}
+.glxavor:hover{
+    background: #0cebf2;
+background: linear-gradient(90deg, rgba(12, 235, 242, 1) 29%, rgba(49, 16, 199, 1) 77%);
+}
