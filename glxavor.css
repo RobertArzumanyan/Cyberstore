@@ -65,3 +65,43 @@ background-color: #F5F5F5;
     width: 500px;
     height: 500px;
 }
+@media (max-width: 1000px){
+    .div3{
+        font-size: 13px;
+    }
+    .img1{
+        width: 250px;
+        height: 200px;
+    }
+    .div4{
+        width: 200px;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .glxavor3{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+@media (max-width:620px){
+    .img1{
+        display: none;
+    }
+    .div3{
+        justify-content: center;
+    }
+    .mec{
+        font-size: 12px;   
+    }
+    .div2>b>svg{
+        width: 10px;
+    }
+}
+@media (max-width:450px){
+    .mec{
+        font-size: 10px;
+    }
+}
